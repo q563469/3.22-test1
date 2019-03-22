@@ -16,7 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    //1.修改
+    
+    UIButton *b = [UIButton new];
+    b.frame = CGRectMake(20, 100, 66, 33);
+    [b setTitle:@"策划师" forState:UIControlStateNormal];
+    [self.view addSubview:b];
 }
 
 
